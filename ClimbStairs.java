@@ -1,8 +1,8 @@
 import java.util.*;
 import java.lang.*;
-public class Main
+public class ClimbStairs
 {
-	public static void ClimbStairs(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {
 		Scanner scn = new Scanner(System.in);
 		int n = scn.nextInt();
 		int cp = countPairs(n);
